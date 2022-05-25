@@ -12,9 +12,9 @@ With the final values, a complete model of the interior is generated for that st
 ### Info about code
 
 There are three files for code. The order is:
-1. calculo_estrella_final_5: fundamentals functions are defined in it.
-2. calculo_errores_final_5: find the minimum total relative error. Loops are used to work with smaller and smaller intervals and be more accurate.
-3. calculo_final_ultimo_5: plots and collect data to print.
+  1. **calculo_estrella_final_5**: fundamentals functions are defined in it.
+  2. **calculo_errores_final_5**: find the minimum total relative error. Loops are used to work with smaller and smaller intervals and be more accurate.
+  3. **calculo_final_ultimo_5**: plots and collect data to print.
 
 Each one imports the previous file. So you can run the last file, but you have to be sure it´s all okay before start.
 
