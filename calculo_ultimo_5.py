@@ -150,7 +150,7 @@ colours = plt.cm.RdYlBu(norm(vals))
 
 sizes = df['Radius, R/R☉']
 
-plt.scatter(main_seq_teffs, main_seq_lumis, s=sizes*100, c=colours)
+plt.scatter(main_seq_teffs, main_seq_lumis, s=sizes*200, c=colours)
 ax.annotate('Sol', xy=(5250, 1), color='Yellow')
 plt.scatter(Teff_sol, 1, s=sizes[9]*200, facecolors='none', marker='o', edgecolors='k')
 plt.scatter(Teff, Lu, s=Ra*200, facecolors='none', marker='o', edgecolors='white')
